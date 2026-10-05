@@ -9,6 +9,9 @@ for(let i = 0; i < 256; i++) {
 
            container.append(cells)
 
+           cells.addEventListener("mouseover", () => {
+               cells.style.backgroundColor = "yellow"
+           })
      
 
 };
