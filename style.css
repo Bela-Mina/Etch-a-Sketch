@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #000;
+    color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr); */
+    border: 2px solid  lightgray;
+    width: 596px;
+    height: 596px;
+    margin: auto;
+    margin-top: 20px;
+}
+.cell {
+    border: 2px solid lightgray;
+    width:37px;
+    height: 37px;
+}
