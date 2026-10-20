@@ -1,7 +1,5 @@
 # Etch-a-Sketch
 
-# Etch-a-Sketch
-
 A simple Etch-a-Sketch drawing application built with HTML, CSS, and JavaScript as part of The Odin Project Foundations course.
 
 ## Live Demo

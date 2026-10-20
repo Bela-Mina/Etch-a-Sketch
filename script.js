@@ -19,6 +19,8 @@ function createGrid(size) {
 }
 }
 createGrid(16)
+
+// This button for New-Grid
 button.addEventListener("click", () => {
         
     let NewGrid = Number(prompt("Enter Grind"));
@@ -29,12 +31,13 @@ button.addEventListener("click", () => {
     }
         createGrid(NewGrid)
 })
+// this button for Rest
 buttonTwo.addEventListener("click", () => {
     const cells = container.querySelectorAll(".cell");
 
     cells.forEach((cell) => {
         cell.style.backgroundColor = "#000";
-        
+
     });
 });
 // you must correct some part 
